@@ -1,4 +1,7 @@
 {
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  },
   "devDependencies": {
     "chmod": "0.2.1",
     "del": "1.2.1",

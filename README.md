@@ -26,6 +26,9 @@ otherwise, read the following steps if you'd like to build/contribute to the CLI
 gulp build-cli
 cd cli/bin
 npm publish
+
+npm pack
+npm i <tarfile>
 ```
 
 ### Releasing a new SDK version
@@ -34,6 +37,9 @@ npm publish
 gulp build-sdk
 cd sdk/bin
 npm publish
+
+npm pack
+npm i <tarfile>
 ```
 
 ### Running Tests
